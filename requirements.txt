@@ -1,0 +1,6 @@
+google-cloud-bigquery
+streamlit==0.50.2
+pandas==0.23.4
+altair==3.3.0
+chart_studio
+pyarrow
