@@ -32,7 +32,7 @@ To create the credential file follow steps explained here: https://cloud.google.
 
 - Build image and push it to a PRIVATE  Container Registry (don't forget about your credentials) .
 
-From a GCP project, we will use Google Shell to build the image and push it to GCR (container registry).
+- From a GCP project, we will use Google Shell to build the image and push it to GCR (container registry).
 
 ```
 # Get name of project 
@@ -41,7 +41,7 @@ From a GCP project, we will use Google Shell to build the image and push it to G
 gcloud config get-value project
 ```
 
-Create the following Dockerfile in your CloudShell session .
+- Create the following Dockerfile in your CloudShell session .
 
 ```
 FROM ahmedbendebba/weather-visualisation:latest
@@ -51,14 +51,14 @@ FROM ahmedbendebba/weather-visualisation:latest
 CMD gunicorn --bind :$PORT wsgi:app
 ```
 
-Finally, we can build and submit the image to GCR.
+- Finally, we can build and submit the image to GCR.
 
 ```
 gcloud builds submit --tag gcr.io/PROJECT-ID/weather-visualisation
 ```
 
 - Create an instance on Google Compute Engine
-- 
+
 - Deploy on Google Compute Engine by running this image gcr.io/PROJECT-ID/weather-visualisation
 
 ```
