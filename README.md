@@ -6,7 +6,7 @@ Live version: http://34.76.236.119/
 ![alt text](record1.gif)
 
 # Architecture
-![alt text](architecture.png)
+![alt text](architecture.jpg)
 
 
 # Running on local machine 
