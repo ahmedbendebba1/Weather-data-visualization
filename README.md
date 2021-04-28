@@ -3,7 +3,7 @@ Interactive SQL queries on BigQuery with Streamlit. This project demonstrates ru
 
 Live version: http://34.76.236.119/
 
-![alt text](record.gif)
+![alt text](record1.gif)
 
 # Architecture
 ![alt text](architecture.jpg)
