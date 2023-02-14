@@ -1,7 +1,7 @@
 # Weather-data-visualization
 Interactive SQL queries on BigQuery with Streamlit. This project demonstrates running SQL queries on [BigQuery](https://cloud.google.com/bigquery/) public datasets and rendering results into an interactive [Streamlit](https://streamlit.io) app. 
 
-Live version: http://34.76.236.119/
+Live version: http://34.78.62.97/
 
 ![alt text](images/record1.gif)
 
